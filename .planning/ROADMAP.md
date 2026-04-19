@@ -30,7 +30,15 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Pushing to `main` creates a GitHub Release via semantic-release
   4. `docs/` contains complete methodology coverage: 3 phase docs, 9 practice docs, 5 workflow docs, gates, getting-started, and 5 standards docs
   5. A first-time reader can follow `docs/getting-started.md` from install to starting a first iteration without external references
-**Plans**: TBD
+**Plans**: 6 plans
+
+Plans:
+- [ ] 01-01-PLAN.md — npm package scaffold (package.json, bin/install.js, .releaserc.json, .gitignore, markdownlint config)
+- [ ] 01-02-PLAN.md — GitHub Actions workflows (ci.yml + release.yml)
+- [ ] 01-03-PLAN.md — Docs verbatim copy (gates.md, 3 phase docs, 8 practice docs, execute.md, clean-code.md)
+- [ ] 01-04-PLAN.md — Docs copy + npm update (getting-started, practices 05+09, workflow 4 files, standards 4 files)
+- [ ] 01-05-PLAN.md — Fresh README.md (kickass-readme standard)
+- [ ] 01-06-PLAN.md — End-to-end verification (npm install + lint gate + human checkpoint)
 
 ### Phase 2: Templates
 **Goal**: Every lean-spec artifact type has a ready-to-use template, including story telemetry YAML schema, so skills can generate consistent documents
@@ -88,7 +96,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Docs | 0/TBD | Not started | - |
+| 1. Foundation & Docs | 0/6 | In progress | - |
 | 2. Templates | 0/TBD | Not started | - |
 | 3. Setup & Loop Skills | 0/TBD | Not started | - |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
