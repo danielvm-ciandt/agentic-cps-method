@@ -5,7 +5,7 @@
 See: .planning/PROJECT.md (updated 2026-04-18)
 
 **Core value:** CPS methodology discipline as installable AI IDE skills — branch → discuss → spec → plan → execute → homologate, feeling like GSD commands
-**Current focus:** Phase 2 — Templates
+**Current focus:** Phase 3 — Setup & Loop Skills
 
 ## Current Position
 
