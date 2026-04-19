@@ -7,7 +7,7 @@
     "acps": "./bin/install.js"
   },
   "scripts": {
-    "lint": "markdownlint-cli2 \"docs/**/*.md\" \"*.md\" \"!CHANGELOG.md\""
+    "lint": "markdownlint-cli2 \"docs/**/*.md\" \"templates/**/*.md\" \"*.md\" \"!CHANGELOG.md\""
   },
   "engines": {
     "node": ">=24"
