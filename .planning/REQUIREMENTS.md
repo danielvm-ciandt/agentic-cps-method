@@ -109,57 +109,57 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| FOUND-01 | Phase 1 | Pending |
-| FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
-| FOUND-04 | Phase 1 | Pending |
-| FOUND-05 | Phase 1 | Pending |
-| DOCS-01 | Phase 1 | Pending |
-| DOCS-02 | Phase 1 | Pending |
-| DOCS-03 | Phase 1 | Pending |
-| DOCS-04 | Phase 1 | Pending |
-| DOCS-05 | Phase 1 | Pending |
-| DOCS-06 | Phase 1 | Pending |
-| TMPL-01 | Phase 2 | Pending |
-| TMPL-02 | Phase 2 | Pending |
-| TMPL-03 | Phase 2 | Pending |
-| TMPL-04 | Phase 2 | Pending |
-| TMPL-05 | Phase 2 | Pending |
-| TMPL-06 | Phase 2 | Pending |
-| SETUP-01 | Phase 3 | Pending |
-| SETUP-02 | Phase 3 | Pending |
-| SETUP-03 | Phase 3 | Pending |
-| SETUP-04 | Phase 3 | Pending |
-| SETUP-05 | Phase 3 | Pending |
-| LOOP-01 | Phase 3 | Pending |
-| LOOP-02 | Phase 3 | Pending |
-| LOOP-03 | Phase 3 | Pending |
-| LOOP-04 | Phase 3 | Pending |
-| LOOP-05 | Phase 3 | Pending |
-| LOOP-06 | Phase 3 | Pending |
-| DELIV-01 | Phase 4 | Pending |
-| DELIV-02 | Phase 4 | Pending |
-| DELIV-03 | Phase 4 | Pending |
-| DELIV-04 | Phase 4 | Pending |
-| DELIV-05 | Phase 4 | Pending |
-| DELIV-06 | Phase 4 | Pending |
-| DELIV-07 | Phase 4 | Pending |
-| DELIV-08 | Phase 4 | Pending |
-| DELIV-09 | Phase 4 | Pending |
-| DELIV-10 | Phase 4 | Pending |
-| DELIV-11 | Phase 4 | Pending |
-| DELIV-12 | Phase 4 | Pending |
-| DELIV-13 | Phase 4 | Pending |
-| DELIV-14 | Phase 4 | Pending |
-| INST-01 | Phase 4 | Pending |
-| INST-02 | Phase 4 | Pending |
-| INST-03 | Phase 4 | Pending |
-| INST-04 | Phase 4 | Pending |
-| SCOPE-01 | Phase 5 | Pending |
-| SCOPE-02 | Phase 5 | Pending |
-| INTEL-01 | Phase 5 | Pending |
-| INTEL-02 | Phase 5 | Pending |
-| INTEL-03 | Phase 5 | Pending |
+| FOUND-01 | Phase 1 — Foundation & Docs | Pending |
+| FOUND-02 | Phase 1 — Foundation & Docs | Pending |
+| FOUND-03 | Phase 1 — Foundation & Docs | Pending |
+| FOUND-04 | Phase 1 — Foundation & Docs | Pending |
+| FOUND-05 | Phase 1 — Foundation & Docs | Pending |
+| DOCS-01 | Phase 1 — Foundation & Docs | Pending |
+| DOCS-02 | Phase 1 — Foundation & Docs | Pending |
+| DOCS-03 | Phase 1 — Foundation & Docs | Pending |
+| DOCS-04 | Phase 1 — Foundation & Docs | Pending |
+| DOCS-05 | Phase 1 — Foundation & Docs | Pending |
+| DOCS-06 | Phase 1 — Foundation & Docs | Pending |
+| TMPL-01 | Phase 2 — Templates | Pending |
+| TMPL-02 | Phase 2 — Templates | Pending |
+| TMPL-03 | Phase 2 — Templates | Pending |
+| TMPL-04 | Phase 2 — Templates | Pending |
+| TMPL-05 | Phase 2 — Templates | Pending |
+| TMPL-06 | Phase 2 — Templates | Pending |
+| SETUP-01 | Phase 3 — Setup & Loop Skills | Pending |
+| SETUP-02 | Phase 3 — Setup & Loop Skills | Pending |
+| SETUP-03 | Phase 3 — Setup & Loop Skills | Pending |
+| SETUP-04 | Phase 3 — Setup & Loop Skills | Pending |
+| SETUP-05 | Phase 3 — Setup & Loop Skills | Pending |
+| LOOP-01 | Phase 3 — Setup & Loop Skills | Pending |
+| LOOP-02 | Phase 3 — Setup & Loop Skills | Pending |
+| LOOP-03 | Phase 3 — Setup & Loop Skills | Pending |
+| LOOP-04 | Phase 3 — Setup & Loop Skills | Pending |
+| LOOP-05 | Phase 3 — Setup & Loop Skills | Pending |
+| LOOP-06 | Phase 3 — Setup & Loop Skills | Pending |
+| DELIV-01 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-02 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-03 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-04 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-05 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-06 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-07 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-08 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-09 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-10 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-11 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-12 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-13 | Phase 4 — Delivery, Management & Installer | Pending |
+| DELIV-14 | Phase 4 — Delivery, Management & Installer | Pending |
+| INST-01 | Phase 4 — Delivery, Management & Installer | Pending |
+| INST-02 | Phase 4 — Delivery, Management & Installer | Pending |
+| INST-03 | Phase 4 — Delivery, Management & Installer | Pending |
+| INST-04 | Phase 4 — Delivery, Management & Installer | Pending |
+| SCOPE-01 | Phase 5 — Scope & Intelligence | Pending |
+| SCOPE-02 | Phase 5 — Scope & Intelligence | Pending |
+| INTEL-01 | Phase 5 — Scope & Intelligence | Pending |
+| INTEL-02 | Phase 5 — Scope & Intelligence | Pending |
+| INTEL-03 | Phase 5 — Scope & Intelligence | Pending |
 
 **Coverage:**
 - v1 requirements: 48 total
@@ -168,4 +168,4 @@
 
 ---
 *Requirements defined: 2026-04-18*
-*Last updated: 2026-04-18 after initial definition*
+*Last updated: 2026-04-18 — traceability updated with phase names after roadmap creation*
