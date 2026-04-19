@@ -24,8 +24,8 @@
 
 ### Templates (EP-M03)
 
-- [ ] **TMPL-01**: `templates/specs/epic.md` in lean-spec format (Overview, Requirements checklist, Non-goals, Acceptance criteria)
-- [ ] **TMPL-02**: `templates/specs/story.md` with YAML front-matter capturing `sessions[]` entries (command, started_at, finished_at, duration_ms, tokens.input/output/total, model) and `totals` block
+- [x] **TMPL-01**: `templates/specs/epic.md` in lean-spec format (Overview, Requirements checklist, Non-goals, Acceptance criteria)
+- [x] **TMPL-02**: `templates/specs/story.md` with YAML front-matter capturing `sessions[]` entries (command, started_at, finished_at, duration_ms, tokens.input/output/total, model) and `totals` block
 - [ ] **TMPL-03**: `templates/bugs/bug-report.md` in lean-spec format
 - [ ] **TMPL-04**: `templates/phases/` has vision.md, backlog.md, architecture-package.md
 - [ ] **TMPL-05**: `templates/deliverables/` has setup-deliverable.md, iteration-report.md, value-activation-deliverable.md, roadmap.md
@@ -120,8 +120,8 @@
 | DOCS-04 | Phase 1 — Foundation & Docs | Pending |
 | DOCS-05 | Phase 1 — Foundation & Docs | Pending |
 | DOCS-06 | Phase 1 — Foundation & Docs | Pending |
-| TMPL-01 | Phase 2 — Templates | Pending |
-| TMPL-02 | Phase 2 — Templates | Pending |
+| TMPL-01 | Phase 2 — Templates | Complete |
+| TMPL-02 | Phase 2 — Templates | Complete |
 | TMPL-03 | Phase 2 — Templates | Pending |
 | TMPL-04 | Phase 2 — Templates | Pending |
 | TMPL-05 | Phase 2 — Templates | Pending |

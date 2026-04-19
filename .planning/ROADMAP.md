@@ -49,7 +49,14 @@ Plans:
   2. `templates/bugs/bug-report.md` exists in lean-spec format
   3. `templates/phases/` and `templates/deliverables/` contain all defined phase and deliverable templates
   4. `templates/reports/` contains daily, weekly, monthly, and quarterly report templates
-**Plans**: TBD
+**Plans**: 5 plans
+
+Plans:
+- [x] 02-01-PLAN.md — Spec templates: epic.md (prescribed sections) and story.md (YAML telemetry front-matter + lean-spec body)
+- [ ] 02-02-PLAN.md — Bug report + phase templates: bug-report.md, vision.md, backlog.md, architecture-package.md
+- [ ] 02-03-PLAN.md — Deliverable templates: setup-deliverable.md, iteration-report.md, value-activation-deliverable.md, roadmap.md
+- [ ] 02-04-PLAN.md — Report templates: daily.md, weekly.md, monthly.md, quarterly.md (minimal scaffold, cadence sections)
+- [ ] 02-05-PLAN.md — Lint extension (templates/**/*.md) + end-to-end verification + human checkpoint
 
 ### Phase 3: Setup & Loop Skills
 **Goal**: A user can run the full CPS inner loop — init a project, capture vision, build a backlog, branch, discuss, spec, plan, execute, and homologate — entirely through `acps` skills
@@ -97,7 +104,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
-| 2. Templates | 0/TBD | Not started | - |
+| 2. Templates | 1/5 | In progress | - |
 | 3. Setup & Loop Skills | 0/TBD | Not started | - |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
 | 5. Scope & Intelligence | 0/TBD | Not started | - |

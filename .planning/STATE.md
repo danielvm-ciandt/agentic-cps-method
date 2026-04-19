@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-04-18)
 ## Current Position
 
 Phase: 2 of 5 (Templates)
-Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-04-19 — Phase 1 complete (6/6 plans, all gates passed)
+Plan: 1 of 5 in current phase
+Status: In progress
+Last activity: 2026-04-19 — Plan 02-01 complete: epic.md + story.md spec templates created
 
-Progress: [██░░░░░░░░] 20%
+Progress: [███░░░░░░░] 24%
 
 ## Performance Metrics
 
@@ -45,6 +45,9 @@ Recent decisions affecting current work:
 - Init: Copy from `/Users/danielvm/Sites/old-agentic-cps-method` when equivalent content exists (docs/, bin/)
 - Init: No npm publish in v1 — GitHub Releases only via semantic-release on `main`
 - Init: Skill format is SKILL.md + workflow.md (lean-spec pattern); state written via `leanspec` CLI
+- 02-01: Only story.md gets YAML front-matter (D-04); epic.md is plain Markdown — no programmatic consumer
+- 02-01: sessions: [] empty array literal is canonical in story.md YAML (not null, not omitted)
+- 02-01: tokens in totals uses nested YAML sub-keys, not dot notation
 
 ### Pending Todos
 
@@ -65,5 +68,5 @@ Items acknowledged and carried forward from previous milestone close:
 ## Session Continuity
 
 Last session: 2026-04-19
-Stopped at: Phase 1 complete — 6/6 plans executed, lint gate passing, all 24 docs present. Ready to plan Phase 2.
+Stopped at: Plan 02-01 complete — templates/specs/epic.md and templates/specs/story.md created. Ready for 02-02.
 Resume file: None
