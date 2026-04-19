@@ -69,7 +69,16 @@ Plans:
   4. `acps-spec` enforces the ambiguity score gate at ≤ 0.20 before allowing a story to advance
   5. `acps-execute` appends a correctly structured `sessions[]` entry to the story YAML front-matter on completion
   6. `acps-homologate` walks all acceptance criteria interactively, captures pass/fail per criterion, and writes the `totals` block; failed stories route to `acps-bug-fix`
-**Plans**: TBD
+**Plans**: 7 plans
+
+Plans:
+- [ ] 03-01-PLAN.md — acps-init skill (creates .planning/ structure + .acps-config.json)
+- [ ] 03-02-PLAN.md — acps-vision + acps-backlog skills (CPS Ch.4 + Ch.10)
+- [ ] 03-03-PLAN.md — acps-architecture + acps-project-roadmap skills (CPS Ch.14 + Ch.12)
+- [ ] 03-04-PLAN.md — acps-branch + acps-discuss skills (branch enforcement + discuss loop)
+- [ ] 03-05-PLAN.md — acps-spec + acps-plan skills (ambiguity gate ≤ 0.20 + task breakdown)
+- [ ] 03-06-PLAN.md — acps-execute + acps-homologate skills (sessions[] telemetry + UAT walkthrough)
+- [ ] 03-07-PLAN.md — Lint extension (skills/**/*.md) + end-to-end verification + human checkpoint
 
 ### Phase 4: Delivery, Management & Installer
 **Goal**: Teams can install `acps` via `npx acps@latest` into any of 10 supported IDEs, and have a full suite of delivery and management skills for epics, stories, bugs, reports, gate management, and cross-session continuity
@@ -105,6 +114,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
 | 2. Templates | 5/5 | Complete | 2026-04-19 |
-| 3. Setup & Loop Skills | 0/TBD | Not started | - |
+| 3. Setup & Loop Skills | 0/7 | Not started | - |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
 | 5. Scope & Intelligence | 0/TBD | Not started | - |
