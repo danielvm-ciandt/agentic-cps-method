@@ -12,7 +12,7 @@ This roadmap builds the `acps` methodology package across 5 phases that mirror t
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation & Docs** - Repo scaffold, CI/CD, and all methodology documentation
+- [x] **Phase 1: Foundation & Docs** - Repo scaffold, CI/CD, and all methodology documentation
 - [ ] **Phase 2: Templates** - All lean-spec templates including story telemetry schema
 - [ ] **Phase 3: Setup & Loop Skills** - 5 setup phase skills and 6 GSD loop skills (core workflow)
 - [ ] **Phase 4: Delivery, Management & Installer** - 14 delivery/management skills plus the npx installer
@@ -33,12 +33,12 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 6 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — npm package scaffold (package.json, bin/install.js, .releaserc.json, .gitignore, markdownlint config)
-- [ ] 01-02-PLAN.md — GitHub Actions workflows (ci.yml + release.yml)
-- [ ] 01-03-PLAN.md — Docs verbatim copy (gates.md, 3 phase docs, 8 practice docs, execute.md, clean-code.md)
-- [ ] 01-04-PLAN.md — Docs copy + npm update (getting-started, practices 05+09, workflow 4 files, standards 4 files)
-- [ ] 01-05-PLAN.md — Fresh README.md (kickass-readme standard)
-- [ ] 01-06-PLAN.md — End-to-end verification (npm install + lint gate + human checkpoint)
+- [x] 01-01-PLAN.md — npm package scaffold (package.json, bin/install.js, .releaserc.json, .gitignore, markdownlint config)
+- [x] 01-02-PLAN.md — GitHub Actions workflows (ci.yml + release.yml)
+- [x] 01-03-PLAN.md — Docs verbatim copy (gates.md, 3 phase docs, 8 practice docs, execute.md, clean-code.md)
+- [x] 01-04-PLAN.md — Docs copy + npm update (getting-started, practices 05+09, workflow 4 files, standards 4 files)
+- [x] 01-05-PLAN.md — Fresh README.md (kickass-readme standard)
+- [x] 01-06-PLAN.md — End-to-end verification (npm install + lint gate + human checkpoint)
 
 ### Phase 2: Templates
 **Goal**: Every lean-spec artifact type has a ready-to-use template, including story telemetry YAML schema, so skills can generate consistent documents
@@ -96,7 +96,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Docs | 0/6 | In progress | - |
+| 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
 | 2. Templates | 0/TBD | Not started | - |
 | 3. Setup & Loop Skills | 0/TBD | Not started | - |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
