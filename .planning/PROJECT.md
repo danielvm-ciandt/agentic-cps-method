@@ -12,12 +12,11 @@ CPS methodology discipline (branch → discuss → spec → plan → execute →
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Repo foundation: package.json (`acps`), bin entrypoint, README, CI/CD (ci.yml + release.yml), semantic-release — Validated in Phase 1: Foundation & Docs
+- [x] Methodology docs: 3 phase docs, 9 CPS practice docs, 5 workflow docs, gates.md, getting-started.md, 5 standards docs — Validated in Phase 1: Foundation & Docs
 
 ### Active
 
-- [ ] Repo foundation: package.json (`acps`), bin entrypoint, README, CI/CD (ci.yml + release.yml), semantic-release
-- [ ] Methodology docs: 3 phase docs, 9 CPS practice docs, 5 workflow docs, gates.md, getting-started.md, 5 standards docs
 - [ ] 14 templates in lean-spec format (specs, phases, deliverables, reports) with sessions[] telemetry schema in story template
 - [ ] 5 Setup Phase skills: acps-init, acps-vision, acps-backlog, acps-architecture, acps-project-roadmap
 - [ ] 6 GSD Loop skills: acps-branch, acps-discuss, acps-spec, acps-plan, acps-execute, acps-homologate
@@ -79,4 +78,4 @@ This document evolves at phase transitions and milestone boundaries.
 4. Update Context with current state
 
 ---
-*Last updated: 2026-04-18 after initialization*
+*Last updated: 2026-04-19 — Phase 1 complete*
