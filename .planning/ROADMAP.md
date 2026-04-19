@@ -13,7 +13,7 @@ This roadmap builds the `acps` methodology package across 5 phases that mirror t
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Docs** - Repo scaffold, CI/CD, and all methodology documentation
-- [ ] **Phase 2: Templates** - All lean-spec templates including story telemetry schema
+- [x] **Phase 2: Templates** - All lean-spec templates including story telemetry schema
 - [ ] **Phase 3: Setup & Loop Skills** - 5 setup phase skills and 6 GSD loop skills (core workflow)
 - [ ] **Phase 4: Delivery, Management & Installer** - 14 delivery/management skills plus the npx installer
 - [ ] **Phase 5: Scope & Intelligence** - Scope/change management skills and project intelligence skills
@@ -56,7 +56,7 @@ Plans:
 - [x] 02-02-PLAN.md — Bug report + phase templates: bug-report.md, vision.md, backlog.md, architecture-package.md
 - [x] 02-03-PLAN.md — Deliverable templates: setup-deliverable.md, iteration-report.md, value-activation-deliverable.md, roadmap.md
 - [x] 02-04-PLAN.md — Report templates: daily.md, weekly.md, monthly.md, quarterly.md (minimal scaffold, cadence sections)
-- [ ] 02-05-PLAN.md — Lint extension (templates/**/*.md) + end-to-end verification + human checkpoint
+- [x] 02-05-PLAN.md — Lint extension (templates/**/*.md) + end-to-end verification + human checkpoint
 
 ### Phase 3: Setup & Loop Skills
 **Goal**: A user can run the full CPS inner loop — init a project, capture vision, build a backlog, branch, discuss, spec, plan, execute, and homologate — entirely through `acps` skills
@@ -104,7 +104,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
-| 2. Templates | 4/5 | In progress | - |
+| 2. Templates | 5/5 | Complete | 2026-04-19 |
 | 3. Setup & Loop Skills | 0/TBD | Not started | - |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
 | 5. Scope & Intelligence | 0/TBD | Not started | - |
