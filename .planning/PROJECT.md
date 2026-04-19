@@ -36,7 +36,8 @@ CPS methodology discipline (branch → discuss → spec → plan → execute →
 ## Context
 
 - **Old reference repo:** `/Users/danielvm/Sites/old-agentic-cps-method` — has existing `docs/`, `bin/install.js`, and other artifacts. Prefer copying over creating where equivalent content exists.
-- **Source references:** CPSBok at `/Users/danielvm/Sites/CPSBok`, lean-spec at `/Users/danielvm/Sites/lean-spec`, GSD at `/Users/danielvm/Sites/get-shit-done`, ScopeCounting at `/Users/danielvm/Sites/ScopeCounting`.
+- **lean-spec** (`/Users/danielvm/Sites/lean-spec`) — the original inspiration. Tool-agnostic spec framework with skill format, `leanspec` CLI, BMAD skills, and a SvelteKit UI (`packages/ui/`). The `acps` skill format and `leanspec` CLI integration are modeled directly on this codebase. Reference it for: skill SKILL.md/workflow.md patterns, CLI conventions, template body structure, and the web UI component architecture (for `agentic-cps-web`).
+- **Source references:** CPSBok at `/Users/danielvm/Sites/CPSBok`, GSD at `/Users/danielvm/Sites/get-shit-done`, ScopeCounting at `/Users/danielvm/Sites/ScopeCounting`.
 - **Skill format:** Each skill has `SKILL.md` (YAML frontmatter + user instructions) + `workflow.md` (XML-style steps). All skills write state via `leanspec` CLI.
 - **Story telemetry:** YAML front-matter captures per-session `sessions[]` (command, timestamps, duration_ms, tokens, model) + `totals` block computed at homologation — feeds web UI metrics.
 - **5 iterations planned**, each merges to `iteration/N` branch, tags `v0.N.0`, with `v1.0.0` at M-Iter-5 completion.

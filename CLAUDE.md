@@ -24,9 +24,14 @@ This project uses GSD for structured execution. Key commands:
 - **Skill format**: every skill has `skills/<name>/SKILL.md` + `skills/<name>/workflow.md`
 - **Node.js 24 ESM** for `bin/install.js` only
 
-## Key constraint
+## Key references — copy before creating
 
-Old reference repo at `/Users/danielvm/Sites/old-agentic-cps-method` — **copy from there when content exists** rather than creating from scratch. Check `docs/`, `bin/`, `helps/` before writing new files.
+| Repo | Path | What to copy from |
+|------|------|-------------------|
+| Old acps | `/Users/danielvm/Sites/old-agentic-cps-method` | `docs/`, `bin/install.js`, `helps/` |
+| lean-spec | `/Users/danielvm/Sites/lean-spec` | Skill SKILL.md/workflow.md patterns, `leanspec` CLI conventions, template body structure, UI components (`packages/ui/`) |
+
+**Always check these repos before writing new files.** lean-spec is the direct inspiration — skill format, CLI, and templates are modeled on it.
 
 ## Architecture
 
