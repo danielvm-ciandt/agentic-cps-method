@@ -55,7 +55,7 @@ Plans:
 - [x] 02-01-PLAN.md — Spec templates: epic.md (prescribed sections) and story.md (YAML telemetry front-matter + lean-spec body)
 - [x] 02-02-PLAN.md — Bug report + phase templates: bug-report.md, vision.md, backlog.md, architecture-package.md
 - [x] 02-03-PLAN.md — Deliverable templates: setup-deliverable.md, iteration-report.md, value-activation-deliverable.md, roadmap.md
-- [ ] 02-04-PLAN.md — Report templates: daily.md, weekly.md, monthly.md, quarterly.md (minimal scaffold, cadence sections)
+- [x] 02-04-PLAN.md — Report templates: daily.md, weekly.md, monthly.md, quarterly.md (minimal scaffold, cadence sections)
 - [ ] 02-05-PLAN.md — Lint extension (templates/**/*.md) + end-to-end verification + human checkpoint
 
 ### Phase 3: Setup & Loop Skills
@@ -104,7 +104,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
-| 2. Templates | 3/5 | In progress | - |
+| 2. Templates | 4/5 | In progress | - |
 | 3. Setup & Loop Skills | 0/TBD | Not started | - |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
 | 5. Scope & Intelligence | 0/TBD | Not started | - |
