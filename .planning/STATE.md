@@ -11,8 +11,8 @@ See: .planning/PROJECT.md (updated 2026-04-18)
 
 Phase: 4 of 5 (Delivery, Management & Installer)
 Plan: 0 of TBD in current phase
-Status: Ready to plan
-Last activity: 2026-04-20 — Phase 3 complete: all 11 acps skills built, lint gate passes (0 errors / 64 files), human checkpoint approved
+Status: Discussed — ready to plan
+Last activity: 2026-04-20 — Phase 4 discussion complete: installer IDE paths, config schema, acps-gate locking, acps-pause/resume format decided; 04-CONTEXT.md written
 
 Progress: [██████████] 60% (3/5 phases complete)
 
