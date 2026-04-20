@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Templates** - All lean-spec templates including story telemetry schema
 - [x] **Phase 3: Setup & Loop Skills** - 5 setup phase skills and 6 GSD loop skills (core workflow)
 - [x] **Phase 4: Delivery, Management & Installer** - 14 delivery/management skills plus the npx installer *(complete 2026-04-20)*
-- [ ] **Phase 5: Scope & Intelligence** - Scope/change management skills and project intelligence skills
+- [x] **Phase 5: Scope & Intelligence** - Scope/change management skills and project intelligence skills *(complete 2026-04-20)*
 
 ## Phase Details
 
@@ -136,10 +136,10 @@ Plans:
 
 Plans:
 
-- [ ] 05-01-PLAN.md — acps-change-request + acps-scope-manager skills (CR registration + scope ledger)
-- [ ] 05-02-PLAN.md — acps-document-project skill (deep codebase scan with resume state)
-- [ ] 05-03-PLAN.md — acps-scan + acps-code-map skills (quick scan + parallel code map)
-- [ ] 05-04-PLAN.md — Lint gate + structural verification + human checkpoint
+- [x] 05-01-PLAN.md — acps-change-request + acps-scope-manager skills (CR registration + scope ledger)
+- [x] 05-02-PLAN.md — acps-document-project skill (deep codebase scan with resume state)
+- [x] 05-03-PLAN.md — acps-scan + acps-code-map skills (quick scan + parallel code map)
+- [x] 05-04-PLAN.md — Lint gate + structural verification + human checkpoint
 
 ## Progress
 
@@ -152,4 +152,4 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Templates | 5/5 | Complete | 2026-04-19 |
 | 3. Setup & Loop Skills | 7/7 | Complete | 2026-04-20 |
 | 4. Delivery, Management & Installer | 8/8 | Complete | 2026-04-20 |
-| 5. Scope & Intelligence | 0/4 | Ready to execute | - |
+| 5. Scope & Intelligence | 4/4 | Complete | 2026-04-20 |
