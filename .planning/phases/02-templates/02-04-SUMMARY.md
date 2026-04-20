@@ -71,7 +71,7 @@ Each task was committed atomically:
 1. **Task 1: Create daily.md and weekly.md report templates** - `606b51a` (feat)
 2. **Task 2: Create monthly.md and quarterly.md report templates** - `72b10d1` (feat)
 
-**Plan metadata:** *(to be recorded)*
+**Plan metadata:** `9070cf2` (docs: complete report templates plan)
 
 ## Files Created/Modified
 

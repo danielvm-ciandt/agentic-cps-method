@@ -436,17 +436,19 @@ Source: CONTEXT.md D-08/D-09 [VERIFIED: local file read]
 | A1 | YAML 1.1 `---` delimiter front-matter will be parseable by the leanspec CLI and web UI | Architecture Patterns (story.md schema) | Downstream CLI/UI may require a different YAML dialect or delimiter; verify in Phase 3 when skills are built |
 | A2 | `templates/` being outside the markdownlint lint glob is acceptable for v1 (or the planner adds it) | Common Pitfalls | Lint violations in templates go undetected; low severity for static content |
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **Should `templates/**/*.md` be added to the lint script?**
    - What we know: Current lint script covers `docs/**/*.md` and root `*.md` only
    - What's unclear: Whether the project owner wants templates linted for Markdown consistency
    - Recommendation: Extend the lint script in the plan as a first task; easy to do, prevents quality drift
+   - **RESOLVED:** Yes — plan 02-05/T1 extends the lint glob to `"docs/**/*.md", "templates/**/*.md", "*.md"`.
 
 2. **Should story.md front-matter include a `status` field?**
    - What we know: lean-spec uses `status` in all its spec front-matter; acps CONTEXT.md does not list `status` in D-01/D-02
    - What's unclear: Whether `acps-homologate` needs a `status` field in YAML to mark a story complete vs. just in the Markdown body
    - Recommendation: Leave out for now per D-04 (only telemetry fields locked in CONTEXT.md); add in Phase 3 if acps-homologate requires it
+   - **RESOLVED:** No status field — CONTEXT.md D-04 locks story.md front-matter to telemetry fields only (sessions[], totals). Defer to Phase 3 if acps-homologate requires it.
 
 ## Environment Availability
 

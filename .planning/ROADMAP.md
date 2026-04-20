@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation & Docs** - Repo scaffold, CI/CD, and all methodology documentation
 - [x] **Phase 2: Templates** - All lean-spec templates including story telemetry schema
-- [ ] **Phase 3: Setup & Loop Skills** - 5 setup phase skills and 6 GSD loop skills (core workflow)
+- [x] **Phase 3: Setup & Loop Skills** - 5 setup phase skills and 6 GSD loop skills (core workflow)
 - [ ] **Phase 4: Delivery, Management & Installer** - 14 delivery/management skills plus the npx installer
 - [ ] **Phase 5: Scope & Intelligence** - Scope/change management skills and project intelligence skills
 
@@ -73,12 +73,12 @@ Plans:
 
 Plans:
 - [x] 03-01-PLAN.md — acps-init skill (creates .planning/ structure + .acps-config.json)
-- [ ] 03-02-PLAN.md — acps-vision + acps-backlog skills (CPS Ch.4 + Ch.10)
-- [ ] 03-03-PLAN.md — acps-architecture + acps-project-roadmap skills (CPS Ch.14 + Ch.12)
-- [ ] 03-04-PLAN.md — acps-branch + acps-discuss skills (branch enforcement + discuss loop)
-- [ ] 03-05-PLAN.md — acps-spec + acps-plan skills (ambiguity gate ≤ 0.20 + task breakdown)
-- [ ] 03-06-PLAN.md — acps-execute + acps-homologate skills (sessions[] telemetry + UAT walkthrough)
-- [ ] 03-07-PLAN.md — Lint extension (skills/**/*.md) + end-to-end verification + human checkpoint
+- [x] 03-02-PLAN.md — acps-vision + acps-backlog skills (CPS Ch.4 + Ch.10)
+- [x] 03-03-PLAN.md — acps-architecture + acps-project-roadmap skills (CPS Ch.14 + Ch.12)
+- [x] 03-04-PLAN.md — acps-branch + acps-discuss skills (branch enforcement + discuss loop)
+- [x] 03-05-PLAN.md — acps-spec + acps-plan skills (ambiguity gate ≤ 0.20 + task breakdown)
+- [x] 03-06-PLAN.md — acps-execute + acps-homologate skills (sessions[] telemetry + UAT walkthrough)
+- [x] 03-07-PLAN.md — Lint extension (skills/**/*.md) + end-to-end verification + human checkpoint
 
 ### Phase 4: Delivery, Management & Installer
 **Goal**: Teams can install `acps` via `npx acps@latest` into any of 10 supported IDEs, and have a full suite of delivery and management skills for epics, stories, bugs, reports, gate management, and cross-session continuity
@@ -114,6 +114,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
 | 2. Templates | 5/5 | Complete | 2026-04-19 |
-| 3. Setup & Loop Skills | 1/7 | In progress | - |
+| 3. Setup & Loop Skills | 7/7 | Complete | 2026-04-20 |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
 | 5. Scope & Intelligence | 0/TBD | Not started | - |
