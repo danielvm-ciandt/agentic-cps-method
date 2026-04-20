@@ -1,6 +1,6 @@
 {
   "name": "acps",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Agentic CPS — installable CPS methodology skills for AI-powered development teams",
   "type": "module",
   "bin": {
@@ -23,6 +23,13 @@
     "markdownlint-cli2": "^0.22.0",
     "semantic-release": "^25.0.3"
   },
-  "keywords": ["agentic", "cps", "methodology", "claude-code", "skills", "sdd"],
+  "keywords": [
+    "agentic",
+    "cps",
+    "methodology",
+    "claude-code",
+    "skills",
+    "sdd"
+  ],
   "license": "MIT"
 }
