@@ -33,7 +33,7 @@
 
 ### Setup Phase Skills (EP-M04)
 
-- [ ] **SETUP-01**: `skills/acps-init/` — creates `.planning/` structure with epics/, iterations/, specs/ in any project
+- [x] **SETUP-01**: `skills/acps-init/` — creates `.planning/` structure with epics/, iterations/, specs/ in any project
 - [ ] **SETUP-02**: `skills/acps-vision/` — guides vision creation, writes `vision.md` via CPS Ch.4 discipline
 - [ ] **SETUP-03**: `skills/acps-backlog/` — guides epic + iteration creation, writes `backlog.md` via CPS Ch.10
 - [ ] **SETUP-04**: `skills/acps-architecture/` — guides architecture package creation, writes `architecture.md` via CPS Ch.14

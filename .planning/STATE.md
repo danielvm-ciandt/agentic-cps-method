@@ -9,10 +9,10 @@ See: .planning/PROJECT.md (updated 2026-04-18)
 
 ## Current Position
 
-Phase: 2 of 5 (Templates)
-Plan: 5 of 5 in current phase
-Status: Complete
-Last activity: 2026-04-19 — Plan 02-05 complete: lint script extended to templates/**/*.md, all 14 templates verified and human-approved. Phase 2 complete.
+Phase: 3 of 5 (Setup & Loop Skills)
+Plan: 1 of 7 in current phase
+Status: Executing
+Last activity: 2026-04-20 — Plan 03-01 complete: acps-init skill created (SKILL.md + workflow.md, SETUP-01 satisfied)
 
 Progress: [████████░░] 60%
 
@@ -49,6 +49,7 @@ Recent decisions affecting current work:
 - 02-01: Only story.md gets YAML front-matter (D-04); epic.md is plain Markdown — no programmatic consumer
 - 02-01: sessions: [] empty array literal is canonical in story.md YAML (not null, not omitted)
 - 02-01: tokens in totals uses nested YAML sub-keys, not dot notation
+- 03-01: acps-init guards re-initialization via .acps-config.json existence check; planningDir is user-configurable (default .planning)
 
 ### Pending Todos
 
@@ -68,6 +69,6 @@ Items acknowledged and carried forward from previous milestone close:
 
 ## Session Continuity
 
-Last session: 2026-04-19
-Stopped at: Plan 02-05 complete — Phase 2 complete. All 14 templates lint-gated and human-approved. Ready for Phase 3.
+Last session: 2026-04-20
+Stopped at: Plan 03-01 complete — acps-init skill (SKILL.md + workflow.md). SETUP-01 satisfied.
 Resume file: None

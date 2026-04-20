@@ -72,7 +72,7 @@ Plans:
 **Plans**: 7 plans
 
 Plans:
-- [ ] 03-01-PLAN.md — acps-init skill (creates .planning/ structure + .acps-config.json)
+- [x] 03-01-PLAN.md — acps-init skill (creates .planning/ structure + .acps-config.json)
 - [ ] 03-02-PLAN.md — acps-vision + acps-backlog skills (CPS Ch.4 + Ch.10)
 - [ ] 03-03-PLAN.md — acps-architecture + acps-project-roadmap skills (CPS Ch.14 + Ch.12)
 - [ ] 03-04-PLAN.md — acps-branch + acps-discuss skills (branch enforcement + discuss loop)
@@ -114,6 +114,6 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 |-------|----------------|--------|-----------|
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
 | 2. Templates | 5/5 | Complete | 2026-04-19 |
-| 3. Setup & Loop Skills | 0/7 | Not started | - |
+| 3. Setup & Loop Skills | 1/7 | In progress | - |
 | 4. Delivery, Management & Installer | 0/TBD | Not started | - |
 | 5. Scope & Intelligence | 0/TBD | Not started | - |
