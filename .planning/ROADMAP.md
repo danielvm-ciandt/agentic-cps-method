@@ -21,18 +21,22 @@ Decimal phases appear between their surrounding integers in numeric order.
 ## Phase Details
 
 ### Phase 1: Foundation & Docs
+
 **Goal**: The repo is a valid npm package with working CI/CD and complete methodology documentation that teams can read to understand CPS
 **Depends on**: Nothing (first phase)
 **Requirements**: FOUND-01, FOUND-02, FOUND-03, FOUND-04, FOUND-05, DOCS-01, DOCS-02, DOCS-03, DOCS-04, DOCS-05, DOCS-06
 **Success Criteria** (what must be TRUE):
-  1. Running `npm install` in the repo succeeds and `node bin/install.js --help` executes without error
-  2. A PR to the repo triggers CI that runs markdownlint and syntax-checks `bin/install.js`
-  3. Pushing to `main` creates a GitHub Release via semantic-release
-  4. `docs/` contains complete methodology coverage: 3 phase docs, 9 practice docs, 5 workflow docs, gates, getting-started, and 5 standards docs
-  5. A first-time reader can follow `docs/getting-started.md` from install to starting a first iteration without external references
+
+1. Running `npm install` in the repo succeeds and `node bin/install.js --help` executes without error
+2. A PR to the repo triggers CI that runs markdownlint and syntax-checks `bin/install.js`
+3. Pushing to `main` creates a GitHub Release via semantic-release
+4. `docs/` contains complete methodology coverage: 3 phase docs, 9 practice docs, 5 workflow docs, gates, getting-started, and 5 standards docs
+5. A first-time reader can follow `docs/getting-started.md` from install to starting a first iteration without external references
+
 **Plans**: 6 plans
 
 Plans:
+
 - [x] 01-01-PLAN.md — npm package scaffold (package.json, bin/install.js, .releaserc.json, .gitignore, markdownlint config)
 - [x] 01-02-PLAN.md — GitHub Actions workflows (ci.yml + release.yml)
 - [x] 01-03-PLAN.md — Docs verbatim copy (gates.md, 3 phase docs, 8 practice docs, execute.md, clean-code.md)
@@ -41,17 +45,21 @@ Plans:
 - [x] 01-06-PLAN.md — End-to-end verification (npm install + lint gate + human checkpoint)
 
 ### Phase 2: Templates
+
 **Goal**: Every lean-spec artifact type has a ready-to-use template, including story telemetry YAML schema, so skills can generate consistent documents
 **Depends on**: Phase 1
 **Requirements**: TMPL-01, TMPL-02, TMPL-03, TMPL-04, TMPL-05, TMPL-06
 **Success Criteria** (what must be TRUE):
-  1. `templates/specs/` contains epic.md and story.md; story.md front-matter has `sessions[]` and `totals` blocks matching the telemetry schema
-  2. `templates/bugs/bug-report.md` exists in lean-spec format
-  3. `templates/phases/` and `templates/deliverables/` contain all defined phase and deliverable templates
-  4. `templates/reports/` contains daily, weekly, monthly, and quarterly report templates
+
+1. `templates/specs/` contains epic.md and story.md; story.md front-matter has `sessions[]` and `totals` blocks matching the telemetry schema
+2. `templates/bugs/bug-report.md` exists in lean-spec format
+3. `templates/phases/` and `templates/deliverables/` contain all defined phase and deliverable templates
+4. `templates/reports/` contains daily, weekly, monthly, and quarterly report templates
+
 **Plans**: 5 plans
 
 Plans:
+
 - [x] 02-01-PLAN.md — Spec templates: epic.md (prescribed sections) and story.md (YAML telemetry front-matter + lean-spec body)
 - [x] 02-02-PLAN.md — Bug report + phase templates: bug-report.md, vision.md, backlog.md, architecture-package.md
 - [x] 02-03-PLAN.md — Deliverable templates: setup-deliverable.md, iteration-report.md, value-activation-deliverable.md, roadmap.md
@@ -59,19 +67,23 @@ Plans:
 - [x] 02-05-PLAN.md — Lint extension (templates/**/*.md) + end-to-end verification + human checkpoint
 
 ### Phase 3: Setup & Loop Skills
+
 **Goal**: A user can run the full CPS inner loop — init a project, capture vision, build a backlog, branch, discuss, spec, plan, execute, and homologate — entirely through `acps` skills
 **Depends on**: Phase 2
 **Requirements**: SETUP-01, SETUP-02, SETUP-03, SETUP-04, SETUP-05, LOOP-01, LOOP-02, LOOP-03, LOOP-04, LOOP-05, LOOP-06
 **Success Criteria** (what must be TRUE):
-  1. `acps-init` creates the full `.planning/` directory structure (epics/, iterations/, specs/) in any target project
-  2. `acps-vision`, `acps-backlog`, `acps-architecture`, and `acps-project-roadmap` each write their respective output files following CPS chapter discipline
-  3. `acps-branch` creates a semantic branch and enforces naming convention before any other loop skill runs
-  4. `acps-spec` enforces the ambiguity score gate at ≤ 0.20 before allowing a story to advance
-  5. `acps-execute` appends a correctly structured `sessions[]` entry to the story YAML front-matter on completion
-  6. `acps-homologate` walks all acceptance criteria interactively, captures pass/fail per criterion, and writes the `totals` block; failed stories route to `acps-bug-fix`
+
+1. `acps-init` creates the full `.planning/` directory structure (epics/, iterations/, specs/) in any target project
+2. `acps-vision`, `acps-backlog`, `acps-architecture`, and `acps-project-roadmap` each write their respective output files following CPS chapter discipline
+3. `acps-branch` creates a semantic branch and enforces naming convention before any other loop skill runs
+4. `acps-spec` enforces the ambiguity score gate at ≤ 0.20 before allowing a story to advance
+5. `acps-execute` appends a correctly structured `sessions[]` entry to the story YAML front-matter on completion
+6. `acps-homologate` walks all acceptance criteria interactively, captures pass/fail per criterion, and writes the `totals` block; failed stories route to `acps-bug-fix`
+
 **Plans**: 7 plans
 
 Plans:
+
 - [x] 03-01-PLAN.md — acps-init skill (creates .planning/ structure + .acps-config.json)
 - [x] 03-02-PLAN.md — acps-vision + acps-backlog skills (CPS Ch.4 + Ch.10)
 - [x] 03-03-PLAN.md — acps-architecture + acps-project-roadmap skills (CPS Ch.14 + Ch.12)
@@ -81,28 +93,45 @@ Plans:
 - [x] 03-07-PLAN.md — Lint extension (skills/**/*.md) + end-to-end verification + human checkpoint
 
 ### Phase 4: Delivery, Management & Installer
+
 **Goal**: Teams can install `acps` via `npx acps@latest` into any of 10 supported IDEs, and have a full suite of delivery and management skills for epics, stories, bugs, reports, gate management, and cross-session continuity
 **Depends on**: Phase 3
 **Requirements**: DELIV-01, DELIV-02, DELIV-03, DELIV-04, DELIV-05, DELIV-06, DELIV-07, DELIV-08, DELIV-09, DELIV-10, DELIV-11, DELIV-12, DELIV-13, DELIV-14, INST-01, INST-02, INST-03, INST-04
 **Success Criteria** (what must be TRUE):
-  1. `npx acps@latest` launches an interactive installer that prompts for name, language, doc language, runtimes, location, and estimation method, then copies skills to the correct destination
-  2. Non-interactive flags (`--claude --global --estimation bcp_full --lang en --doc-lang en`) complete installation without prompts
-  3. Skills are correctly placed for all 10 IDEs (Claude Code, Cursor, Windsurf, Copilot, Gemini CLI, Cline, Augment, OpenCode, Codex, Trae) in both global and local modes
-  4. Installation writes `.acps-config.json` to the project root with version, name, languages, estimation, runtimes, location, and `installed_at`
-  5. `acps-gate` lists current blockers and locks BCP baseline into `change-log.md` upon setup gate approval
-  6. `acps-pause` saves full work state to `continue-here.md`; `acps-resume` restores it accurately
-**Plans**: TBD
+
+1. `npx acps@latest` launches an interactive installer that prompts for name, language, doc language, runtimes, location, and estimation method, then copies skills to the correct destination
+2. Non-interactive flags (`--claude --global --estimation bcp_full --lang en --doc-lang en`) complete installation without prompts
+3. Skills are correctly placed for all 10 IDEs (Claude Code, Cursor, Windsurf, Copilot, Gemini CLI, Cline, Augment, OpenCode, Codex, Trae) in both global and local modes
+4. Installation writes `.acps-config.json` to the project root with version, name, languages, estimation, runtimes, location, and `installed_at`
+5. `acps-gate` lists current blockers and locks BCP baseline into `change-log.md` upon setup gate approval
+6. `acps-pause` saves full work state to `continue-here.md`; `acps-resume` restores it accurately
+
+**Plans**: 8 plans
+
+Plans:
+
+- [ ] 04-01-PLAN.md — acps-gate + acps-status skills (gate management + status dashboard)
+- [ ] 04-02-PLAN.md — acps-pause + acps-resume skills (cross-session continuity pair)
+- [ ] 04-03-PLAN.md — acps-new-epic + acps-new-story + acps-new-bug skills (artifact creation trio)
+- [ ] 04-04-PLAN.md — acps-bug-fix + acps-pr skills (git operation pair)
+- [ ] 04-05-PLAN.md — acps-deliverable + acps-report skills (document generation pair)
+- [ ] 04-06-PLAN.md — acps-new-iteration + acps-note + acps-help skills (utility trio)
+- [ ] 04-07-PLAN.md — bin/install.js full implementation (interactive + non-interactive installer)
+- [ ] 04-08-PLAN.md — Lint gate + structural verification + non-interactive smoke test + human checkpoint
 
 ### Phase 5: Scope & Intelligence
+
 **Goal**: Teams can formally manage scope changes with BCP/FP accounting and run automated project intelligence scans to give AI agents accurate codebase context
 **Depends on**: Phase 4
 **Requirements**: SCOPE-01, SCOPE-02, INTEL-01, INTEL-02, INTEL-03
 **Success Criteria** (what must be TRUE):
-  1. `acps-change-request` registers a CR with BCP/FP delta in `change-log.md` and warns when scope exceeds baseline without equivalent removal
-  2. `acps-scope-manager` shows the full scope ledger (baseline vs current BCP/FP, all CRs, balance status) and flags overruns
-  3. `acps-document-project` scans a codebase and produces project-overview.md, source-tree.md, component-inventory.md, and dev-guide.md in `.planning/intel/`; re-runs resume from state file rather than restarting
-  4. `acps-scan` produces a 1-page context summary readable by any AI agent in a new session
-  5. `acps-code-map` runs parallel per-module analysis and writes dependency graphs and component relationships to `.planning/codebase/`
+
+1. `acps-change-request` registers a CR with BCP/FP delta in `change-log.md` and warns when scope exceeds baseline without equivalent removal
+2. `acps-scope-manager` shows the full scope ledger (baseline vs current BCP/FP, all CRs, balance status) and flags overruns
+3. `acps-document-project` scans a codebase and produces project-overview.md, source-tree.md, component-inventory.md, and dev-guide.md in `.planning/intel/`; re-runs resume from state file rather than restarting
+4. `acps-scan` produces a 1-page context summary readable by any AI agent in a new session
+5. `acps-code-map` runs parallel per-module analysis and writes dependency graphs and component relationships to `.planning/codebase/`
+
 **Plans**: TBD
 
 ## Progress
@@ -115,5 +144,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
 | 2. Templates | 5/5 | Complete | 2026-04-19 |
 | 3. Setup & Loop Skills | 7/7 | Complete | 2026-04-20 |
-| 4. Delivery, Management & Installer | 0/TBD | Not started | - |
+| 4. Delivery, Management & Installer | 0/8 | Not started | - |
 | 5. Scope & Intelligence | 0/TBD | Not started | - |
