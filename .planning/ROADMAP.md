@@ -132,7 +132,14 @@ Plans:
 4. `acps-scan` produces a 1-page context summary readable by any AI agent in a new session
 5. `acps-code-map` runs parallel per-module analysis and writes dependency graphs and component relationships to `.planning/codebase/`
 
-**Plans**: TBD
+**Plans**: 4 plans
+
+Plans:
+
+- [ ] 05-01-PLAN.md — acps-change-request + acps-scope-manager skills (CR registration + scope ledger)
+- [ ] 05-02-PLAN.md — acps-document-project skill (deep codebase scan with resume state)
+- [ ] 05-03-PLAN.md — acps-scan + acps-code-map skills (quick scan + parallel code map)
+- [ ] 05-04-PLAN.md — Lint gate + structural verification + human checkpoint
 
 ## Progress
 
@@ -144,5 +151,5 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 1. Foundation & Docs | 6/6 | Complete | 2026-04-19 |
 | 2. Templates | 5/5 | Complete | 2026-04-19 |
 | 3. Setup & Loop Skills | 7/7 | Complete | 2026-04-20 |
-| 4. Delivery, Management & Installer | 0/8 | Not started | - |
-| 5. Scope & Intelligence | 0/TBD | Not started | - |
+| 4. Delivery, Management & Installer | 8/8 | Complete | 2026-04-20 |
+| 5. Scope & Intelligence | 0/4 | Ready to execute | - |
