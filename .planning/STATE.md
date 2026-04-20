@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-04-18)
 
 **Core value:** CPS methodology discipline as installable AI IDE skills — branch → discuss → spec → plan → execute → homologate, feeling like GSD commands
-**Current focus:** Phase 4 — Delivery, Management & Installer
+**Current focus:** Phase 5 — Scope & Intelligence
 
 ## Current Position
 
-Phase: 4 of 5 (Delivery, Management & Installer)
+Phase: 5 of 5 (Scope & Intelligence)
 Plan: 0 of TBD in current phase
-Status: Discussed — ready to plan
-Last activity: 2026-04-20 — Phase 4 discussion complete: installer IDE paths, config schema, acps-gate locking, acps-pause/resume format decided; 04-CONTEXT.md written
+Status: Ready to plan
+Last activity: 2026-04-20 — Phase 4 complete: 14 skills + installer, lint 0 errors, interactive + non-interactive install verified
 
-Progress: [██████████] 60% (3/5 phases complete)
+Progress: [████████████] 80% (4/5 phases complete)
 
 ## Performance Metrics
 

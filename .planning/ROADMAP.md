@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation & Docs** - Repo scaffold, CI/CD, and all methodology documentation
 - [x] **Phase 2: Templates** - All lean-spec templates including story telemetry schema
 - [x] **Phase 3: Setup & Loop Skills** - 5 setup phase skills and 6 GSD loop skills (core workflow)
-- [ ] **Phase 4: Delivery, Management & Installer** - 14 delivery/management skills plus the npx installer
+- [x] **Phase 4: Delivery, Management & Installer** - 14 delivery/management skills plus the npx installer *(complete 2026-04-20)*
 - [ ] **Phase 5: Scope & Intelligence** - Scope/change management skills and project intelligence skills
 
 ## Phase Details
@@ -110,14 +110,14 @@ Plans:
 
 Plans:
 
-- [ ] 04-01-PLAN.md — acps-gate + acps-status skills (gate management + status dashboard)
-- [ ] 04-02-PLAN.md — acps-pause + acps-resume skills (cross-session continuity pair)
-- [ ] 04-03-PLAN.md — acps-new-epic + acps-new-story + acps-new-bug skills (artifact creation trio)
-- [ ] 04-04-PLAN.md — acps-bug-fix + acps-pr skills (git operation pair)
-- [ ] 04-05-PLAN.md — acps-deliverable + acps-report skills (document generation pair)
-- [ ] 04-06-PLAN.md — acps-new-iteration + acps-note + acps-help skills (utility trio)
-- [ ] 04-07-PLAN.md — bin/install.js full implementation (interactive + non-interactive installer)
-- [ ] 04-08-PLAN.md — Lint gate + structural verification + non-interactive smoke test + human checkpoint
+- [x] 04-01-PLAN.md — acps-gate + acps-status skills (gate management + status dashboard)
+- [x] 04-02-PLAN.md — acps-pause + acps-resume skills (cross-session continuity pair)
+- [x] 04-03-PLAN.md — acps-new-epic + acps-new-story + acps-new-bug skills (artifact creation trio)
+- [x] 04-04-PLAN.md — acps-bug-fix + acps-pr skills (git operation pair)
+- [x] 04-05-PLAN.md — acps-deliverable + acps-report skills (document generation pair)
+- [x] 04-06-PLAN.md — acps-new-iteration + acps-note + acps-help skills (utility trio)
+- [x] 04-07-PLAN.md — bin/install.js full implementation (interactive + non-interactive installer)
+- [x] 04-08-PLAN.md — Lint gate + structural verification + non-interactive smoke test + human checkpoint
 
 ### Phase 5: Scope & Intelligence
 
