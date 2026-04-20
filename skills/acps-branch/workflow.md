@@ -64,6 +64,7 @@ Example: `iter-1/ep-m01-user-authentication`
     <output>Branch creation failed. Error: {git error output}
 
 Common causes:
+
 - Branch `{branch_name}` already exists → use `git checkout {branch_name}` instead
 - Invalid branch name → check for invalid characters</output>
     <action>HALT — display the git error for the user to resolve</action>
@@ -84,6 +85,7 @@ You are now on branch: `{branch_name}`
 3. Run `acps-plan` — break the story into tasks with BCP estimates
 4. Run `acps-execute` — implement
 5. Run `acps-homologate` — walk all ACs with the user
+
   </output>
 </step>
 

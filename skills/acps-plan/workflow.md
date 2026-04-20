@@ -57,6 +57,7 @@ Draft Tasks:
 - [ ] {Task 1}
 - [ ] {Task 2}
 ```
+
   </action>
   <action>Ask: "Do you want to add, remove, or reorder any tasks?"</action>
   <check if="user makes changes">
@@ -76,9 +77,9 @@ Assign BCP points to each task. BCP scale:
 - 8 BCP: very large — consider splitting the task
   </output>
   <action>For each task:
-    - Display: "Task: {task description}"
-    - Ask: "BCP estimate? (1, 2, 3, 5, or 8)"
-    - Record bcp for this task
+  - Display: "Task: {task description}"
+  - Ask: "BCP estimate? (1, 2, 3, 5, or 8)"
+  - Record bcp for this task
   </action>
   <action>Calculate story_total_bcp = sum of all task BCP values</action>
   <output>Story BCP total: {story_total_bcp}</output>
@@ -107,6 +108,7 @@ Replace any existing `## Plan` content with:
 - [ ] {task description} _(BCP: {bcp})_
 {end for}
 ```
+
   </action>
   <action>Write the updated story file</action>
 </step>

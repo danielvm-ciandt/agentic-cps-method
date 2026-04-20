@@ -76,6 +76,7 @@ I'll guide you through the key questions that define your project vision. Answer
 
 {non_goals — formatted as a bulleted list}
 ```
+
   </action>
   <action>Write the composed content to `{planningDir}/vision.md`</action>
 </step>
@@ -87,9 +88,11 @@ I'll guide you through the key questions that define your project vision. Answer
 Vision written to: `{planningDir}/vision.md`
 
 **Next steps:**
-  1. Run `acps-backlog` to define epics and iterations
-  2. Run `acps-architecture` to capture the architecture package
-  3. Run `acps-project-roadmap` to estimate delivery
+
+1. Run `acps-backlog` to define epics and iterations
+2. Run `acps-architecture` to capture the architecture package
+3. Run `acps-project-roadmap` to estimate delivery
+
   </output>
 </step>
 

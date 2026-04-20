@@ -88,6 +88,7 @@ Let's define the architecture package. These decisions will guide all implementa
 
 {constraints}
 ```
+
   </action>
   <action>Write the composed content to `{planningDir}/architecture.md`</action>
 </step>
@@ -99,8 +100,10 @@ Let's define the architecture package. These decisions will guide all implementa
 Architecture package written to: `{planningDir}/architecture.md`
 
 **Next steps:**
-  1. Run `acps-project-roadmap` to apply BCP/FP estimation to the roadmap
-  2. When iteration work begins: run `acps-branch` to start the GSD loop
+
+1. Run `acps-project-roadmap` to apply BCP/FP estimation to the roadmap
+2. When iteration work begins: run `acps-branch` to start the GSD loop
+
   </output>
 </step>
 

@@ -104,6 +104,7 @@ Open questions ({count}):
 - **{topic}:** {answer} — resolve before running acps-spec
 {end for}
 ```
+
   </action>
   <action>Write the updated story file</action>
 </step>

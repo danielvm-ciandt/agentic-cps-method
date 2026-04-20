@@ -78,6 +78,7 @@ Working through {task_count} tasks from the Plan section.
     total: {tokens_total}
   model: "{model}"
 ```
+
   </action>
   <action>Write the updated story file with the new session appended to the sessions[] array in the YAML front-matter</action>
 </step>

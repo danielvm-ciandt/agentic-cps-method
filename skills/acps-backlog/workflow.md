@@ -83,6 +83,7 @@ Now assign epics to iterations. Each iteration delivers one or more epics.
 ---
 {end for}
 ```
+
   </action>
   <action>Write the composed content to `{planningDir}/backlog.md`</action>
 </step>
@@ -96,9 +97,11 @@ Epics defined: {count of epics}
 Iterations planned: {count of iterations}
 
 **Next steps:**
-  1. Run `acps-architecture` to capture the architecture package
-  2. Run `acps-project-roadmap` to apply BCP/FP estimation to the roadmap
-  3. When iteration work begins: run `acps-branch` -> `acps-discuss` -> `acps-spec` -> `acps-plan` -> `acps-execute` -> `acps-homologate`
+
+1. Run `acps-architecture` to capture the architecture package
+2. Run `acps-project-roadmap` to apply BCP/FP estimation to the roadmap
+3. When iteration work begins: run `acps-branch` -> `acps-discuss` -> `acps-spec` -> `acps-plan` -> `acps-execute` -> `acps-homologate`
+
   </output>
 </step>
 

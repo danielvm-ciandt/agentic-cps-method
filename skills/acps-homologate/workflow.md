@@ -49,7 +49,7 @@ to `acps-bug-fix` for correction.
 <step n="2" goal="Present all ACs at once for UAT (D-12)">
   <output>**Homologation — {story title}**
 
-**CPS Chapter 28: User Acceptance Test**
+### CPS Chapter 28: User Acceptance Test
 
 Here are all acceptance criteria for this story. For each, verify the behavior in the running
 system, then mark your results using the format: `1-pass, 2-fail, 3-pass` (number corresponds to
@@ -92,7 +92,7 @@ Mark your results (e.g., "1-pass, 2-pass, 3-fail, 4-pass"):
   <action>Count failed ACs from the verdicts collected in Step 2</action>
   <action>Update the story YAML front-matter:
 
-1. Write the `totals` block:
+- Write the `totals` block:
 
 ```yaml
 totals:
@@ -104,13 +104,13 @@ totals:
     total: {total_tokens_total}
 ```
 
-2. Set story status:
-   - If ALL ACs passed: add or update `status: homologated` in the YAML front-matter (D-15)
-   - If ANY AC failed: add or update `status: failed` in the YAML front-matter (D-14)
+- Set story status:
+  - If ALL ACs passed: add or update `status: homologated` in the YAML front-matter (D-15)
+  - If ANY AC failed: add or update `status: failed` in the YAML front-matter (D-14)
 
-3. Annotate the ## Test section with per-AC results:
-   - For each passed AC: change `- [ ]` to `- [x]`
-   - For each failed AC: keep as `- [ ]` and append ` ← FAILED`
+- Annotate the ## Test section with per-AC results:
+  - For each passed AC: change `- [ ]` to `- [x]`
+  - For each failed AC: keep as `- [ ]` and append `← FAILED`
   </action>
   <action>Write the updated story file</action>
 </step>
@@ -140,8 +140,11 @@ Totals written:
 
 Story: {story_title}
 {failed_count} AC(s) failed:
+
 {for each failed AC:}
+
 - AC {N}: {AC description}
+
 {end for}
 
 Status: failed

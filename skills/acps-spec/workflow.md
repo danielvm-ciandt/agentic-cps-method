@@ -50,10 +50,10 @@ Based on the story context and decisions, I'll draft acceptance criteria. Each A
 - Complete (covers the happy path + key edge cases)
   </output>
   <action>Analyze story content and draft 3-8 acceptance criteria covering:
-    - The primary happy-path behavior
-    - Key error or failure conditions
-    - Boundary cases (limits, empty states, invalid input)
-    - Any behavior explicitly stated in the Decisions section
+  - The primary happy-path behavior
+  - Key error or failure conditions
+  - Boundary cases (limits, empty states, invalid input)
+  - Any behavior explicitly stated in the Decisions section
   </action>
   <action>Display the drafted ACs to the user in checkbox format:
 
@@ -62,6 +62,7 @@ Draft Acceptance Criteria:
 - [ ] {AC 1}
 - [ ] {AC 2}
 ```
+
   </action>
   <action>Ask: "Do you want to add, remove, or reword any ACs before scoring?"</action>
   <check if="user makes changes">
@@ -87,8 +88,11 @@ Draft Acceptance Criteria:
     <output>Ambiguity score: {score} > 0.20 threshold
 
 Issues raising the score:
+
 {for each issue:}
+
 - {specific issue description}
+
 {end for}
 
 Options:
@@ -131,6 +135,7 @@ Replace any existing `## Test` content with:
 - [ ] {AC}
 {end for}
 ```
+
   </action>
   <action>Write the updated story file</action>
 </step>

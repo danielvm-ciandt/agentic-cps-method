@@ -92,6 +92,7 @@ Total BCP at project start: **{total_bcp}**
 
 > This baseline is used by `acps-gate` and `acps-change-request` to track scope changes.
 ```
+
   </action>
   <action>Write the composed content to `{planningDir}/roadmap.md`</action>
 </step>
@@ -107,12 +108,14 @@ Milestones: {count}
 **Setup Phase complete.** Your project is ready to enter the GSD Loop.
 
 **Next steps (GSD Loop):**
-  1. Run `acps-branch` — create the iteration branch
-  2. Run `acps-discuss` — refine story context and decisions
-  3. Run `acps-spec` — write acceptance criteria (ambiguity gate ≤ 0.20)
-  4. Run `acps-plan` — break story into tasks with BCP estimates
-  5. Run `acps-execute` — implement the story
-  6. Run `acps-homologate` — walk all ACs with the user, mark story done
+
+1. Run `acps-branch` — create the iteration branch
+2. Run `acps-discuss` — refine story context and decisions
+3. Run `acps-spec` — write acceptance criteria (ambiguity gate ≤ 0.20)
+4. Run `acps-plan` — break story into tasks with BCP estimates
+5. Run `acps-execute` — implement the story
+6. Run `acps-homologate` — walk all ACs with the user, mark story done
+
   </output>
 </step>
 

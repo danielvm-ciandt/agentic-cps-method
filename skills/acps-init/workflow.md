@@ -59,18 +59,22 @@ Where `{planningDir}` is the value determined in Step 2.
 **acps-init complete.**
 
 Planning directory created: `{planningDir}/`
+
 Structure:
-  - {planningDir}/epics/      — epic specification files
-  - {planningDir}/iterations/ — iteration tracking files
-  - {planningDir}/specs/      — story specification files
+
+- {planningDir}/epics/ — epic specification files
+- {planningDir}/iterations/ — iteration tracking files
+- {planningDir}/specs/ — story specification files
 
 Config written: `.acps-config.json` (planningDir: "{planningDir}")
 
 **Next steps:**
-  1. Run `acps-vision` to create your project vision
-  2. Run `acps-backlog` to define epics and iterations
-  3. Run `acps-architecture` to capture the architecture package
-  4. Run `acps-project-roadmap` to estimate and plan delivery
+
+1. Run `acps-vision` to create your project vision
+2. Run `acps-backlog` to define epics and iterations
+3. Run `acps-architecture` to capture the architecture package
+4. Run `acps-project-roadmap` to estimate and plan delivery
+
   </output>
 </step>
 
