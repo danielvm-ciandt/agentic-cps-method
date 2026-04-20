@@ -9,6 +9,7 @@ under 30 seconds. It reads 6 files + git log directly — no dependency on `acps
 having run first (D-10).
 
 **5 summary sections (D-09):**
+
 1. What the project is (from package.json + README)
 2. Tech stack + key dependencies (from package.json)
 3. Current iteration + active epic (from .acps-config.json + backlog.md + git branch)
@@ -114,25 +115,30 @@ having run first (D-10).
 ---
 
 ## 1. What This Project Is
+
 {name} v{version} — {description}
 
 ## 2. Tech Stack
+
 - Runtime: {runtime}
 - Framework: {framework or "none"}
 - Key dependencies: {top_deps joined by ", "}
 - Estimated dep count: {dep_count} production + {dev_dep_count} dev
 
 ## 3. Current Iteration
+
 - Branch: {git branch}
 - Iteration: {iter-N or "unknown"}
 - Active epic: {epic-id} — {epic_title or "unknown"}
 
 ## 4. Last 3 Commits
+
 - {commit_1}
 - {commit_2}
 - {commit_3}
 
 ## 5. Open Impediments
+
 {impediments list, one per line, or "None"}
 
 ---

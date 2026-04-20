@@ -42,8 +42,8 @@ approved_by: "default"
 |-------|------|-------------|-----------|----------|---------|
 ```
 
-    </action>
-    <action>Set baseline_bcp = 0, baseline_fp = 0</action>
+  </action>
+  <action>Set baseline_bcp = 0, baseline_fp = 0</action>
   </check>
   <check if="`{planningDir}/change-log.md` exists">
     <action>Read `{planningDir}/change-log.md`</action>
@@ -103,6 +103,7 @@ Please provide the following details for this change request:</output>
   <output>**acps-change-request complete.**
 
 CR registered:
+
 - CR ID:       {cr_id}
 - Date:        {cr_date}
 - Description: {cr_description}

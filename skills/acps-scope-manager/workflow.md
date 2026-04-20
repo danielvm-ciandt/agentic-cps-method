@@ -10,6 +10,7 @@ On overrun (current > baseline), displays a clear warning banner with the exact 
 Information only — does not block work or require action (D-04).
 
 **Ledger display format (D-05):**
+
 - Header block: Baseline BCP | Current BCP | Balance — same row for FP
 - CR table: All rows from change-log.md CR table (CR ID, date, description, deltas, running balance)
 
@@ -77,7 +78,8 @@ Approved at: {approved_at} | Approved by: {approved_by}
 
 | CR ID | Date | Description | BCP Delta | FP Delta | Balance |
 |-------|------|-------------|-----------|----------|---------|
-{display all rows from cr_rows exactly as stored in change-log.md}
+| (display all rows from cr_rows exactly as stored in change-log.md) | | | | | |
+
     </output>
   </check>
 </step>

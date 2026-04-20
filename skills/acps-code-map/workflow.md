@@ -58,25 +58,25 @@ Spawning one sub-agent per module.
   following analysis instructions. All sub-agents run concurrently; collect all results
   before proceeding to Step 5.
 
-  Sub-agent instructions template (substitute {module.dir_name} and {module.path}):
-  ---
+  Sub-agent instructions template (substitute `{module.dir_name}` and `{module.path}`):
+
   Analyze the `{module.path}` directory. Read every file in the directory (and
   subdirectories) to produce accurate analysis. Return a structured analysis with
   exactly these 7 sections:
 
-  1. **Module Name:** `{module.dir_name}`
-  2. **Responsibility:** 1-2 sentence description of what this module does and why it exists
-  3. **Files:** Bullet list of all files with a 1-line description each
-  4. **Key Exports / Public Interface:** List of exported functions, classes, CLI commands,
-     or API endpoints with brief descriptions (what each one does, not how)
-  5. **Internal Dependencies:** Which other project modules or directories does this module
-     import from? List as: `{module name} — reason for dependency`
-  6. **External Dependencies:** Which npm/pip/cargo/go packages does this module use?
-     List as: `{package name} — why used`
-  7. **Data Flow:** Brief description of how data enters this module (inputs) and exits it
-     (outputs/side-effects). Include file reads/writes if relevant.
-  ---
-  </action>
+- **Module Name:** `{module.dir_name}`
+- **Responsibility:** 1-2 sentence description of what this module does and why it exists
+- **Files:** Bullet list of all files with a 1-line description each
+- **Key Exports / Public Interface:** List of exported functions, classes, CLI commands,
+  or API endpoints with brief descriptions (what each one does, not how)
+- **Internal Dependencies:** Which other project modules or directories does this module
+  import from? List as: `{module name} — reason for dependency`
+- **External Dependencies:** Which npm/pip/cargo/go packages does this module use?
+  List as: `{package name} — why used`
+- **Data Flow:** Brief description of how data enters this module (inputs) and exits it
+  (outputs/side-effects). Include file reads/writes if relevant.
+
+</action>
 </step>
 
 <step n="5" goal="Write per-module analysis files (D-12)">
@@ -153,7 +153,9 @@ Modules analyzed: {modules.length}
 Output directory: {planningDir}/codebase/
 
 Files written:
-{for each module: - {planningDir}/codebase/{slug}.md ({module.dir_name})}
+
+{for each module: `{planningDir}/codebase/{slug}.md` ({module.dir_name})}
+
 - {planningDir}/codebase/MANIFEST.md
 
 Review the MANIFEST.md for a full cross-module dependency overview.

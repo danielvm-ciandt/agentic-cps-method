@@ -134,6 +134,7 @@ re-run it reads `.scan-state.json` to skip completed docs and only regenerate pe
 **acps-document-project complete.**
 
 All 4 intel docs written to `{planningDir}/intel/`:
+
 - `{planningDir}/intel/project-overview.md`
 - `{planningDir}/intel/source-tree.md`
 - `{planningDir}/intel/component-inventory.md`
