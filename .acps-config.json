@@ -1,0 +1,12 @@
+{
+  "version": "0.0.0",
+  "name": "my-project",
+  "lang": "en",
+  "docLang": "en",
+  "estimation": "bcp_full",
+  "runtimes": [
+    "claude-code"
+  ],
+  "location": "local",
+  "installed_at": "2026-04-20T17:39:14.059Z"
+}

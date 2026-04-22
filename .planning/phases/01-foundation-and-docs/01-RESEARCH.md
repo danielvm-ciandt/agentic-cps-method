@@ -589,17 +589,17 @@ Do NOT include pnpm in Requirements. Do NOT copy the old README.
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **SHA pinning for GitHub Actions**
    - What we know: The architecture.md shows `actions/checkout@v4` (tag, not SHA). The old repo also uses tags.
    - What's unclear: Whether this project requires SHA-pinned actions for security.
-   - Recommendation: Use `@v4` tags matching the architecture doc and old repo pattern. If security requirements change, pin to SHAs.
+   - RESOLVED: Use `@v4` tags matching the architecture doc and old repo pattern. Both canonical references use tags — follow existing pattern. SHA pinning is not required for this project.
 
 2. **NPM_TOKEN placeholder value**
    - What we know: `@semantic-release/npm` with `npmPublish: false` may still check for NPM_TOKEN in `verifyConditions`.
    - What's unclear: Whether a dummy/placeholder value satisfies the check.
-   - Recommendation: Document in README/workflow comment that NPM_TOKEN must be set in GitHub Secrets (even as a placeholder string).
+   - RESOLVED: Document in release.yml workflow comments that NPM_TOKEN must be set in GitHub Secrets (a placeholder string value is sufficient since `npmPublish: false` skips actual publishing). Add a comment in release.yml action block.
 
 ---
 
