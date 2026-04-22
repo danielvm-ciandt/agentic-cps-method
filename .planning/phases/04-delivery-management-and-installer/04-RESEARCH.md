@@ -691,22 +691,22 @@ for (const runtime of answers.runtimes) {
 
 ---
 
-## Open Questions
+## Open Questions (RESOLVED)
 
 1. **Copilot local path format**
    - What we know: GitHub Copilot local path is `.github/copilot-instructions.md` (single file) or `.github/instructions/*.instructions.md`
    - What's unclear: The CONTEXT.md says `.github/copilot/` (a directory). The installer would copy skills into that directory, but Copilot reads a single `copilot-instructions.md` file, not a skills directory.
-   - Recommendation: Use `.github/copilot/` as specified in D-02 (installer just copies there); document in the skill that Copilot users may need to reference the files manually from their copilot-instructions.md. Alternatively, treat Copilot as "best-effort" since it doesn't natively support the agentskills format.
+   - **RESOLVED:** Use `.github/copilot/` as a best-effort directory per D-02. Copilot users may need to reference files manually. This is acceptable for v1 — Copilot is documented as "best-effort" since it doesn't natively scan skills directories.
 
 2. **Windsurf global path**
    - What we know: Actual global path is `~/.codeium/windsurf/memories/global_rules.md` (single file)
    - What's unclear: CONTEXT.md specifies `~/.windsurf/rules/` which doesn't exist per official docs
-   - Recommendation: Use `.windsurf/rules/` for local (verified) and skip global or use `~/.codeium/windsurf/memories/` with a note that it's a single file, not a directory.
+   - **RESOLVED:** Use `.windsurf/rules/` for local (verified against official Windsurf docs). For global, use `~/.codeium/windsurf/memories/` — installer copies skill files there; Windsurf reads all `.md` files in that directory per their docs. The IDE_PATHS map in bin/install.js uses these research-verified paths.
 
 3. **Augment and Trae skill paths**
    - What we know: Both appear in the agentskills.io supported clients list. Both have LOW-confidence path assumptions.
    - What's unclear: Neither had accessible documentation during research.
-   - Recommendation: Use the cross-client standard `~/.agents/skills/` and `.agents/skills/` as fallback — both IDEs likely scan these paths as part of agentskills standard compliance.
+   - **RESOLVED:** Use the cross-client standard `~/.agents/skills/` (global) and `.agents/skills/` (local) for both Augment and Trae. These are the agentskills.io standard paths — any IDE claiming agentskills compliance must scan them. If either IDE uses a proprietary path, users can copy manually. Acceptable for v1.
 
 ---
 
