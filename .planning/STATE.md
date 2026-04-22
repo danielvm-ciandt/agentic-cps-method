@@ -2,19 +2,18 @@
 
 ## Project Reference
 
-See: .planning/PROJECT.md (updated 2026-04-18)
+See: .planning/PROJECT.md (updated 2026-04-22)
 
 **Core value:** CPS methodology discipline as installable AI IDE skills — branch → discuss → spec → plan → execute → homologate, feeling like GSD commands
-**Current focus:** Phase 5 — Scope & Intelligence
+**Current focus:** Planning next milestone (v1.1)
 
 ## Current Position
 
-Phase: 5 of 5 (Scope & Intelligence)
-Plan: 4 of 4 in current phase
-Status: Complete
-Last activity: 2026-04-20 — Phase 5 complete: 5 skills built, lint 0 errors, human approved, all 5 req IDs verified
+Phase: v1.0 complete — milestone archived
+Status: Milestone shipped
+Last activity: 2026-04-22 — v1.0 milestone closed: 5 phases, 30 plans, 30 skills, installer for 10 IDEs, archived
 
-Progress: [████████████████] 100% (5/5 phases complete)
+Progress: [████████████████] 100% — v1.0 shipped
 
 ## Performance Metrics
 
@@ -62,11 +61,17 @@ None yet.
 
 ## Deferred Items
 
-Items acknowledged and carried forward from previous milestone close:
+Items acknowledged and deferred at milestone close on 2026-04-22:
 
 | Category | Item | Status | Deferred At |
 |----------|------|--------|-------------|
-| *(none)* | | | |
+| uat_gap | Phase 01 — 01-HUMAN-UAT.md | partial (2 pending scenarios) | 2026-04-22 v1.0 close |
+| uat_gap | Phase 05 — MILESTONE-UAT.md | testing (10 pending scenarios) | 2026-04-22 v1.0 close |
+| verification_gap | Phase 01 — 01-VERIFICATION.md | human_needed | 2026-04-22 v1.0 close |
+| verification_gap | Phase 02 — 02-VERIFICATION.md | human_needed | 2026-04-22 v1.0 close |
+| verification_gap | Phase 03 — 03-VERIFICATION.md | human_needed | 2026-04-22 v1.0 close |
+| verification_gap | Phase 04 — 04-VERIFICATION.md | human_needed | 2026-04-22 v1.0 close |
+| verification_gap | Phase 05 — 05-VERIFICATION.md | human_needed | 2026-04-22 v1.0 close |
 
 ## Session Continuity
 
